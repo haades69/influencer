@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Manrope:wght@600;700&family=Open+Sans:wght@400;700;800&family=Poppins:wght@600;700&family=Work+Sans:wght@400;500;600;700&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Inter", sans-serif;
+  font-family: "Manrope", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+
+header {
+  padding: 80px 20px;
+}
+/* navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navlist {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+}
+.navlist li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+ul li a {
+  text-decoration: none;
+  color: #3a3a3a;
+}
+.navtitle {
+  color: #3a3a3a;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 120px 20px;
+  background-image: url(images/Circle\ design.svg);
+  background-repeat: no-repeat;
+  background-position: 92.5% 45%;
+}
+.bannertitle {
+  color: #3a3a3a;
+  font-size: 52px;
+  font-weight: 700;
+}
+.bannerdesc {
+  color: #3a3a3a;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 16px 0px;
+}
+.bannerbtn {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 24px;
+  gap: 8px;
+  border-radius: 41px;
+  background: #e02c6d;
+  border: none;
+}
+
+/* sponser */
+
+.sponser {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* collections */
+
+.collection {
+  text-align: center;
+  padding: 130px 10px;
+}
+.collectiontitle {
+  color: #3a3a3a;
+  font-size: 28px;
+  font-weight: 600;
+}
+.collectionboxes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.box {
+  padding: 15px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
